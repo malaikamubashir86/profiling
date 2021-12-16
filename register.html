@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="RegistrationAndLogin.css" media="Screen">
+    <link rel="javascript" type="text/js" href="main.js" media="Screen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   
+   <body>
+   <div class="signup-form">
+   		<div class="title">Signup</div>
+   		<form>
+   			<div class="input-boxes">
+           		<div class="input-box">
+              		<i class="fas fa-user"></i>
+   					<label for="fname">Firstname:</label><br>
+  					<input type="text" id="fname" name="Firstname"placeholder="Enter firstname" required><br>
+  				</div>
+  				<div class="input-box">
+              		<i class="fas fa-user"></i>
+  					<label for="lname">Lastname:</label><br>
+  					<input type="text" id="lname" name="Lastname"placeholder="Enter lastname" required><br>
+  				</div>
+  				<div class="input-box">
+              		<i class="fas fa-user"></i>
+  					<label for="username">Username:</label><br>
+  					<input type="text" id="username" name="username"placeholder="Enter username" required><br>
+  				</div>
+  				<div class="input-box">
+              		<i class="fas fa-envelope"></i>
+  					<label for="email">Email:</label><br>
+  					<input type="email" id="email" name="email"placeholder="Enter email" required><br>
+  				</div>
+  				<div class="input-box">
+              		<i class="fas fa-lock"></i>
+  					<label for="pwd">Password:</label><br>
+  					<input type="password" id="pwd" name="pwd" onkeyup='check();' placeholder="Enter password" required><br><br>
+  				</div>
+  				<div class="input-box">
+              		<i class="fas fa-lock"></i>
+  					<label for="pwd1">Confirm Password:</label><br>
+  					<input type="password" id="pwd1" name="pwd1" onkeyup='check();' placeholder="confirm password" required><br><br>
+  					<span id='message'></span>
+  				</div>
+  			<div class="accept-terms">
+  				<input type="checkbox" id="condition" name="terms" value="accept">
+  				<label for="condition"> I accept the Terms of Use & Privacy Policy</label><br>
+  			</div>
+  			<div class="buttoninput-box">
+  				<input type="button" onClick= "location.href='RegistrationAndLogin.html'" value="Register">
+  			</div>
+  			<div class="text sign-up-text">Already have an account? <a rel="login" type="text/html" href="RegistrationAndLogin.html" media="Screen">Login now</a></div>
+  		</div>
+   		</form>
+   	</div>
+   </body>
+ </html>

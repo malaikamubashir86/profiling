@@ -1,0 +1,79 @@
+.banner-area{
+	background-color: #B963A1;
+	background-position:center center;
+	background-size: cover;
+	height: 100vh;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	padding: 0px 0px 0px 0px;
+}
+.menu{
+	border: 1px solid blue;
+	background-color:#A13066 ; 
+	width:60%;
+	float: right;
+	list-style: none;
+
+}
+.menu li{
+	width: 100px;
+	height:50px;
+	line-height: 50px;
+	text-align: center;
+	color: yellow;
+	font-size: 15px;
+	float: left;
+}
+.menu li:hover{
+	background: #F8E329;
+}
+.menu li a{
+	font-family: baloo;
+	color: #fff;
+	font-weight: bold;
+
+}
+.logo{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	font-family: big John;
+	padding: 20px 0;
+	width: 20px;
+	float: left;
+
+}
+.banner-text
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+	text-align: center;
+}
+.banner-text h2{
+	font-family:baloo;
+	margin:0;
+	font-size: 45px;
+	color: black;
+}
+.banner-text a{
+	border: 1px solid blue;
+	background-color: white;
+	font-size: 17px;
+	padding: 10px 35px;
+	color: white;
+	display: inline-block;
+	margin-top: 5%;
+	color: black;
+	font-family: poppins;
+}
+.banner-text a:hover{
+	background: #F8E329;
+	border-color:#F8E329: 	
+}

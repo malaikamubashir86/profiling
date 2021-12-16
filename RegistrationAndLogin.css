@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+/*style for the entire background*/
+body{
+  background-image: url(image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  padding: 30px;
+
+}
+
+
+/*styles for login form*/
+.forms{
+  background-color:#B963A1 ;
+  filter: blur(10px);
+  -webkit-filter: blur(0px);
+  height: 310px;
+  width: 550px;
+  margin: auto;
+  border: 5px solid yellow;
+  padding: 10px;
+  z-index: 1;
+}
+
+
+.input-boxes{
+  position: absolute;
+  top: 60%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding-bottom: 20px;
+  text-align: left;
+  font-family: Lucida Console,  Courier New , Monospace;
+}
+
+
+.forms .form-content .login-form .title{
+  position: absolute;
+  font-size: 24px;
+  font-weight: 500;
+  color: #333;
+  text-align: left;
+  font-family: Lucida Console,  Courier New , Monospace;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+
+.signup-form .title{
+  position: absolute;
+  font-size: 24px;
+  font-weight: 500;
+  color: #333;
+  text-align: left;
+  
+  font-family: Lucida Console,  Courier New , Monospace;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+
+.forms .form-content .input-box{
+  display: flex;
+  align-items: left;
+  height: 50px;
+  width: 100%;
+  margin: left;
+  position: relative;
+}
+.form-content .input-box input{
+  height: 70%;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0 30px;
+  font-size: 13px;
+  font-weight: 400;
+  border-bottom: 2px solid rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+
+
+.input-box input{
+  height: 75%;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0 30px;
+  font-size: 13px;
+  font-weight: 400;
+  border-bottom: 2px solid rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+
+.form-content .input-box input:focus,
+.form-content .input-box input:valid{
+  border-color: #7d2ae8;
+}
+
+.form-content .input-box i{
+  position: static;
+  color: #3a3734;
+  font-size: 15.5px;
+}
+
+.input-box i{
+  position: static;
+  color: #3a3734;
+  font-size: 15.5px;
+}
+
+.forms .form-content .text{
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+.forms .form-content .text a{
+  text-decoration: none;
+}
+.forms .form-content .text a:hover{
+  text-decoration: underline;
+}
+
+.text{
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+.text a{
+  text-decoration: none;
+}
+.text a:hover{
+  text-decoration: underline;
+}
+
+.accept-terms{
+  font-size: 13px;
+  position: relative;
+
+}
+.forms .form-content .button{
+  color: #494541;
+  margin-top: 35px;
+}
+.forms .form-content .button input{
+  color: #f6f7fb;
+  background: #494541;
+  border-radius: 2px;
+  padding: 5px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.forms .form-content .button input:hover{
+  background: #282e3e;
+}
+
+.buttoninput-box{
+  color: #494541;
+  margin-top: 35px;
+}
+.buttoninput-box input{
+  color: #f6f7fb;
+  background: #494541;
+  border-radius: 2px;
+  padding: 5px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.buttoninput-box input:hover{
+  background: #282e3e;
+}
+.forms .form-content label{
+  color:red;
+  cursor: pointer;
+  font-size: 15px;
+}
+.forms .form-content label:hover{
+  text-decoration: underline;
+}
+
+/*styles for sign-up form*/
+.signup-form{
+  background-color: #cdccfe;
+  margin-left: 10; 
+}
+
+.forms .form-content .login-text,
+.forms .form-content .sign-up-text{
+  text-align: left;
+  margin-top: 5px;
+}
+
+.signup-form{
+  background-color: #DA8BDE;
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+  height: 550px;
+  width: 550px;
+  margin: auto;
+  border: 5px solid yellow;
+  padding: 10px;
+  z-index: 1;
+}
+
+@media (max-width: 730px) {
+  .container .cover{
+    display: none;
+  }
+  .form-content .login-form,
+  .form-content .signup-form{
+    width: 100%;
+  }
+  .form-content .signup-form{
+    display: none;
+  }
+
+/*navbar*/
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
